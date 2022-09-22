@@ -1,0 +1,101 @@
+cn31
+Fri Dec  3 20:15:43 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 455.32.00    Driver Version: 455.32.00    CUDA Version: 11.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  Tesla K80           On   | 00000000:84:00.0 Off |                    0 |
+| N/A   26C    P8    26W / 149W |      0MiB / 11441MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+----------------- Epsilon = 5.0 ----------------------------------------------------------\n
+nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+Size of dataset (MiB): 1.525879
+Warming up GPU for time trialing...
+
+tmp (changed to 555 on GPU): 555
+Total blocks in the kernel: 98
+Total number of data-points generated: 100000
+Number of points within epsilon: 879688
+Total time (s): 3.777439
+Data Transfer (Host-to-Device) Time: 0.000355
+Data Transfer (Device-to-Host) Time: 3.653447
+Kernel execution time: 0.000007
+nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+Size of dataset (MiB): 1.525879
+Warming up GPU for time trialing...
+
+tmp (changed to 555 on GPU): 555
+Total blocks in the kernel: 98
+Total number of data-points generated: 100000
+Number of points within epsilon: 879688
+Total time (s): 3.785706
+Data Transfer (Host-to-Device) Time: 0.000352
+Data Transfer (Device-to-Host) Time: 3.673547
+Kernel execution time: 0.000007
+nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+Size of dataset (MiB): 1.525879
+Warming up GPU for time trialing...
+
+tmp (changed to 555 on GPU): 555
+Total blocks in the kernel: 98
+Total number of data-points generated: 100000
+Number of points within epsilon: 879688
+Total time (s): 3.775616
+Data Transfer (Host-to-Device) Time: 0.000356
+Data Transfer (Device-to-Host) Time: 3.663324
+Kernel execution time: 0.000008
+----------------- Epsilon = 10.0 ----------------------------------------------------------\n
+nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+Size of dataset (MiB): 1.525879
+Warming up GPU for time trialing...
+
+tmp (changed to 555 on GPU): 555
+Total blocks in the kernel: 98
+Total number of data-points generated: 100000
+Number of points within epsilon: 3211140
+Total time (s): 3.778287
+Data Transfer (Host-to-Device) Time: 0.000354
+Data Transfer (Device-to-Host) Time: 3.663367
+Kernel execution time: 0.000007
+nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+Size of dataset (MiB): 1.525879
+Warming up GPU for time trialing...
+
+tmp (changed to 555 on GPU): 555
+Total blocks in the kernel: 98
+Total number of data-points generated: 100000
+Number of points within epsilon: 3211140
+Total time (s): 3.782655
+Data Transfer (Host-to-Device) Time: 0.000353
+Data Transfer (Device-to-Host) Time: 3.668349
+Kernel execution time: 0.000008
+nvcc warning : The 'compute_35', 'compute_37', 'compute_50', 'sm_35', 'sm_37' and 'sm_50' architectures are deprecated, and may be removed in a future release (Use -Wno-deprecated-gpu-targets to suppress warning).
+
+Size of dataset (MiB): 1.525879
+Warming up GPU for time trialing...
+
+tmp (changed to 555 on GPU): 555
+Total blocks in the kernel: 98
+Total number of data-points generated: 100000
+Number of points within epsilon: 3211140
+Total time (s): 3.786582
+Data Transfer (Host-to-Device) Time: 0.000358
+Data Transfer (Device-to-Host) Time: 3.673879
+Kernel execution time: 0.000007
